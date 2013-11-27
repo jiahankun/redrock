@@ -1,0 +1,1 @@
+¿ØÖÆÌ¨ÊäÈëgetElementsByClassNameobtain('nav/firstnav/secondnav/thirdnav')

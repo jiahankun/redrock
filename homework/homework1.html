@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>homework</title>
+    <link rel="stylesheet" type="text/css" href="css.css">
+    <script type="text/javascript">
+    function getElementsByClassNameobtain(className) {
+    var elementList = document.getElementsByTagName("*");
+    var elementArray = new Array();
+    for (element in elementList)
+    if (elementList[element].className !== undefined) {
+      classList = elementList[element].className.split(' ')
+      for (classNameSplit in classList)
+        className == classList[classNameSplit]?elementArray.push(elementList[element]):function(){};
+    };
+  return elementArray;
+}
+  </script>
+</head>
+<body>
+<div class = "nav">
+    <ul>
+        <li><a href = "#" class="firstnav">我的主页</a>
+        <ul>
+            <li><a href = "#" class="secondnav">个人资料</a>
+            <ul>
+                <li><a href = "#" class="thirdnav">自我介绍</a></li>
+                <li><a href = "#" class="thirdnav">家庭介绍</a></li>
+                <li><a href = "#" class="thirdnav">未来梦想</a></li>
+            </ul>
+            </li>
+        <li><a href = "#"  class="secondnav">兴趣爱好</a>
+        <ul>
+            <li><a href = "#" class="thirdnav">漫画</a></li>
+            <li><a href = "#" class="thirdnav">篮球</a></li>
+            <li><a href = "#" class="thirdnav">科技</a></li>
+        </ul>
+        </li>
+        <li><a href = "#" class="secondnav" >社交圈子</a>
+        <ul>
+            <li><a href = "#" class="thirdnav">小学 6.1</a></li>
+            <li><a href = "#" class="thirdnav">初中 130</a></li>
+            <li><a href = "#" class="thirdnav">高中 322</a></li>
+            <li><a href = "#" class="thirdnav">大学 zj1302</a></li>
+        </ul>
+        </li>
+        </ul>
+        </li>
+    <ul>
+        <li><a href = "#" class="firstnav" >我的日志</a>
+        <ul>
+            <li><a href = "#" class="secondnav">生活感悟</a>
+            <ul>
+                <li><a href = "#" class="thirdnav">“酸”</a></li>
+                <li><a href = "#" class="thirdnav">“甜”</a></li>
+                <li><a href = "#" class="thirdnav">“苦”</a></li>
+                <li><a href = "#" class="thirdnav">“辣”</a></li>
+            </ul>
+            </li>
+        <li><a href = "#" class="secondnav">大杂烩</a>
+        <ul>
+            <li><a href = "#" class="thirdnav">幽默风趣</a></li>
+            <li><a href = "#" class="thirdnav">感动你我</a></li>
+            <li><a href = "#" class="thirdnav">天下杂侃</a></li>
+            <li><a href = "#" class="thirdnav">游戏动漫</a></li>
+        </ul>
+        </li>
+        <li><a href = "#" class="secondnav">优美文章</a>
+        <ul>
+            <li><a href = "#" class="thirdnav">诗歌</a></li>
+            <li><a href = "#" class="thirdnav">散文</a></li>
+            <li><a href = "#" class="thirdnav">小说</a></li>
+        </ul>
+        </li>
+        </ul>
+        </li>
+        <ul>
+        <li><a href = "#" class="firstnav">我的相册</a>
+        <ul>
+            <li><a href = "#" class="secondnav">偶像明星</a>
+            <ul>
+                <li><a href = "#" class="thirdnav">facebook</a></li>
+                <li><a href = "#" class="thirdnav">google+</a></li>
+                <li><a href = "#" class="thirdnav">twitter</a></li>
+            </ul>
+            </li>
+        <li><a href = "#" class="secondnav">亲朋好友</a>
+            <ul>
+                <li><a href = "#" class="thirdnav">facebook</a></li>
+                <li><a href = "#" class="thirdnav">google+</a></li>
+                <li><a href = "#" class="thirdnav">twitter</a></li>
+            </ul>
+        </li>
+        <li><a href = "#" class="secondnav">优美风景</a>
+            <ul>
+                <li><a href = "#" class="thirdnav">国内风景</a></li>
+                <li><a href = "#" class="thirdnav">国外风景</a></li>
+                <li><a href = "#" class="thirdnav">太空美景</a></li>
+            </ul>
+        </li>
+        </ul>
+        </li>
+        <ul>
+        <li><a href = "#" class="firstnav">我的说说</a>
+        <ul>
+            <li><a href = "#" class="secondnav">多彩心情</a>
+            <ul>
+                <li><a href = "#" class="thirdnav">小忧伤</a></li>
+                <li><a href = "#" class="thirdnav">大乐趣</a></li>
+                <li><a href = "#" class="thirdnav">无聊~</a></li>
+            </ul>
+            </li>
+        <li><a href = "#" class="secondnav">生活点滴</a>
+        <ul>
+            <li><a href = "#" class="thirdnav">趣事</a></li>
+            <li><a href = "#" class="thirdnav">游记</a></li>
+            <li><a href = "#" class="thirdnav">苦恼</a></li>
+            <li><a href = "#" class="thirdnav">哀愁</a></li>
+        </ul>
+        </li>
+        <li><a href = "#" class="secondnav">重要事件</a>
+        <ul>
+            <li><a href = "#" class="thirdnav">记录</a></li>
+            <li><a href = "#" class="thirdnav">管理</a></li>
+        </ul>
+        </li>
+        </ul>
+        </li>
+        <ul>
+        <li><a href = "#" class="firstnav">我的留言板</a>
+        <ul>
+            <li><a href = "#" class="secondnav">朋友</a>
+            <ul>
+                <li><a href = "#" class="thirdnav">给个赞</a></li>
+                <li><a href = "#" class="thirdnav">砸鸡蛋</a></li>
+                <li><a href = "#" class="thirdnav">打酱油...路过</a></li>
+            </ul>
+            </li>
+        <li><a href = "#" class="secondnav">亲人</a>
+            <ul>
+                <li><a href = "#" class="thirdnav">给个赞</a></li>
+                <li><a href = "#" class="thirdnav">砸鸡蛋</a></li>
+                <li><a href = "#" class="thirdnav">打酱油...路过</a></li>
+            </ul>
+        </li>
+        <li><a href = "#" class="secondnav">老师</a>
+            <ul>
+                <li><a href = "#" class="thirdnav">给个赞</a></li>
+                <li><a href = "#" class="thirdnav">砸鸡蛋</a></li>
+                <li><a href = "#" class="thirdnav">打酱油...路过</a></li>
+            </ul>
+        </li>
+        </ul>
+        </li>
+        <ul>
+        <li><a href = "#" class="firstnav">用户设置</a>
+        <ul>
+            <li><a href = "#" class="secondnav">修改资料</a>
+            <ul>
+                <li><a href = "#" class="thirdnav">个人信息修改</a></li>
+                <li><a href = "#" class="thirdnav">页面格式修改</a></li>
+                <li><a href = "#" class="thirdnav">其他资料修改</a></li>
+            </ul>
+            </li>
+            <li><a href = "#" class="secondnav">访问权限</a>
+            <ul>
+                <li><a href = "#" class="thirdnav">允许名单</a></li>
+                <li><a href = "#" class="thirdnav">受限名单</a></li>
+                <li><a href = "#" class="thirdnav">拒绝名单</a></li>
+                <li><a href = "#" class="thirdnav">名单管理</a></li>
+            </ul>
+            </li>
+            <li><a href = "#" class="secondnav">来访记录</a>
+            <ul>
+                <li><a href = "#" class="thirdnav">访客记录</a></li>
+                <li><a href = "#" class="thirdnav">被拒访客</a></li>
+                <li><a href = "#" class="thirdnav">请求访问</a></li>
+            </ul>
+            </li>
+        </ul>
+        </li>
+</div>
+</body>
+</html>
+

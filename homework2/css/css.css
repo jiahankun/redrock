@@ -1,0 +1,258 @@
+body{
+    background:url("../img/bg.png");
+}
+#top{
+    height:20px;
+    background:url("../img/深黑.gif");
+    margin: 0 auto;
+    width: 988px;
+}
+#top a{
+    text-decoration: none;
+    float: left;
+    color:#808080;
+    font-size: 12px;
+    line-height: 20px
+}
+#top img{
+    float: right;
+    margin-right: 10px
+}
+#logo{
+    margin-left:200px;
+    margin-top:22px;
+    width:290px;
+    float: left;
+}
+input{
+     border-top-left-radius:2em;
+     border-bottom-left-radius:2em;
+     width:160px;
+     height: 22px;
+     padding: 0px;
+     margin:0px;
+     background-color:#474747;
+}
+button{
+    border-top-right-radius:2em;
+    border-bottom-right-radius:2em;
+    height: 26px;
+    width: 26px;
+    padding: 0px;
+    margin: 0px;
+    background:url("../img/search.png");
+
+}
+#search2{
+    float: right;
+    margin-right:0px;
+    margin-top: 35px;
+}
+#search1{
+    float:right;
+    margin-top: 35px;
+}
+
+#nav{
+    margin: 0 auto;
+    padding-left: 190px;
+    padding-top: 80px;
+}
+#nav img{
+    position: relative;
+}
+#nav div{
+    position: absolute;
+    top:109px;
+    height:62px;
+    border-right:1px solid black;
+}
+#text1{
+    left:200px;
+    width:110px;
+}
+#text2{
+    left:320px;
+    width:110px;
+}
+#text3{
+    left:430px;
+    width: 180px;
+}
+#text4{
+    left:610px;
+    width: 180px;
+}
+#text5{
+    left:790px;
+    width: 180px;
+}
+#text6{
+    left:970px;
+    width: 100px;
+}
+ #text1 a, #text2 a, #text3 a,#text4 a,#text5 a,#text6 a{
+    text-decoration: none;
+    display:block;
+    line-height:62px;
+    text-align:center;
+    font-weight: bold;
+    font-size: 25px;
+    color: white;
+
+}
+#tupian{
+    margin-left:400px;
+    margin-top: 30px;
+}
+#tupiandown{
+    background:rgb(25,25,25);
+    height: 50px;
+    width:540px;
+}
+
+#picturebutton{
+    position: absolute;
+    top: 430px;
+    right: 411px;
+    height:32px;
+    width:116px;
+    background: url("../img/btn.gif");
+}
+#picturebutton a{
+    text-decoration: none;
+    display:block;
+    line-height:32px;
+    text-align:center;
+    font-weight: bold;
+    font-size: 20px;
+    color: white;
+}
+#texttop{
+    line-height:50px;
+    font-weight: bold;
+    color: white;
+}
+#textdown{
+    font-size: 10px
+}
+#boder{
+    background: url("../img/深黑.gif");
+    width:900px;
+    height:700px;
+    margin-top: 60px;
+    margin-left: 230px;
+}
+#top-left{
+    width:550px;
+    height: 400px;
+    margin-left: 10px;
+    float: left;
+}
+#top-left span img{
+    margin-top: 25px;
+    margin-left:9px;
+}
+h5{
+    color: white;
+    font-size: 15px;
+}
+p{
+    font-size: 14px;
+    color: white;
+}
+
+#textpicture{
+    height:27px;
+    width: 98px;
+    position: absolute;
+    top: 838px;
+    left:251px;
+    background: url("../img/btn2.gif");
+}
+#textpicture a{
+    text-decoration: none;
+    display:block;
+    line-height:27px;
+    text-align:center;
+    font-weight: bold;
+    font-size: 13px;
+    color: white;
+}
+#top-right{
+    float: right;
+    width:320px;
+    height:400px;
+}
+#top-right span img{
+    margin-top:32px;
+}
+#down-left{
+    width: 550px;
+    height:100px;
+    float: left;
+    margin-left:9px;
+}
+#pic-down-left{
+    width: 500px;
+    height:150px;
+    background: url("../img/黑.jpg");
+    margin-left: 20px;
+    margin-top: 20px;
+    float: left;
+    border-radius:2em;
+}
+#leftbar{
+    position: absolute;
+    top: 1111px;
+    left:260px;
+}
+#rightbar{
+    position: absolute;
+    top: 1111px;
+    left:740px;
+}
+.picture{
+    display: inline-block;
+    margin-top: 25px;
+    margin-left: 22px;
+
+}
+#pic-down-left{
+    font-size: 13px;
+}
+#down-right{
+    height:300px;
+    float: right;
+    width: 320px;
+    position:absolute;
+    top: 930px;
+    left:818px;
+}
+#down-right p{
+    font-size: 10px;
+    color:#808080
+}
+.footer{
+    height:10px;
+    margin-top: 20px
+}
+.footer a {
+    text-decoration: none;
+    float: left;
+    color:#808080;
+    font-size: 15px;
+    margin-left: 20px
+}
+#footer-right{
+    float: right;
+    color:#808080;
+    font-size: 12px;
+    padding:0 15px;
+}
+#footer-right a{
+    text-decoration:underline;
+}
+a:hover{
+    color: #808080;
+}
