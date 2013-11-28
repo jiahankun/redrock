@@ -54,56 +54,36 @@ button{
 }
 
 #nav{
-    margin: 0 auto;
-    padding-left: 190px;
-    padding-top: 80px;
-}
-#nav img{
+    background: url("../img/nav.png");
+    width:988px;
+    height: 68px;
     position: relative;
+    margin: 0 auto;
+    overflow: hidden;
+    top: 20px;
 }
-#nav div{
-    position: absolute;
-    top:109px;
-    height:62px;
+.text{
+    display:inline-block;
     border-right:1px solid black;
-}
-#text1{
-    left:200px;
-    width:110px;
-}
-#text2{
-    left:320px;
-    width:110px;
-}
-#text3{
-    left:430px;
-    width: 180px;
-}
-#text4{
-    left:610px;
-    width: 180px;
-}
-#text5{
-    left:790px;
-    width: 180px;
-}
-#text6{
-    left:970px;
+    height:60px;
     width: 100px;
+    position: relative;
+    top: 3px;
+    left: 7px
 }
- #text1 a, #text2 a, #text3 a,#text4 a,#text5 a,#text6 a{
+ .text a{
     text-decoration: none;
-    display:block;
-    line-height:62px;
-    text-align:center;
+    line-height:60px;
+    text-align: center;
     font-weight: bold;
-    font-size: 25px;
+    font-size: 20px;
     color: white;
+    display: block;
 
 }
 #tupian{
     margin-left:400px;
-    margin-top: 30px;
+    margin-top: 47px;
 }
 #tupiandown{
     background:rgb(25,25,25);
@@ -255,4 +235,8 @@ p{
 }
 a:hover{
     color: #808080;
+}
+.text a:hover{
+    background: url("../img/nav浅.jpg");
+    color:white;
 }
